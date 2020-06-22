@@ -9,6 +9,6 @@ document.getElementById("clickme")?.addEventListener("click", async () => {
     console.count("renderer call")
     console.log("Sending data to main")
     await sendData((document.getElementById("data") as HTMLInputElement).value)
-    console.log("Got back from renderer")
+    console.log("Got back from main")
     console.count("renderer return")
 })
