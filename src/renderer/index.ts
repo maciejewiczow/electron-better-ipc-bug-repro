@@ -1,7 +1,7 @@
 import { sendData } from "../common/interop"
 
 document.body.innerHTML = `
-    <input type="text" id="data"/>
+    <input type="text" id="data" value="test"/>
     <button type="button" id="clickme">Click me to send a message to main</button>
 `
 
