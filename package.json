@@ -13,7 +13,7 @@
         "electron-better-ipc": "^1.1.0"
     },
     "devDependencies": {
-        "electron": "^9.0.3",
+        "electron": "^9.3.0",
         "electron-builder": "^22.4.1",
         "electron-webpack": "^2.8.2",
         "electron-webpack-ts": "^4.0.1",
